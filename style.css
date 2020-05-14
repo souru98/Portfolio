@@ -65,6 +65,10 @@ strong {
     outline-offset: 3px;
 }
 
+.logo {
+    width: 10em;
+}
+
 
 /* Buttons */
 
