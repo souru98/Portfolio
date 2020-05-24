@@ -67,8 +67,8 @@ strong {
 
 .logo {
     width: 10em;
-
-
+    position: sticky;
+    top: 0;
 }
 
 
@@ -276,7 +276,7 @@ header {
         width: min-content;
         margin: 0 auto;
         grid-column-gap: 1em;
-        grid-template-areas: "img title""img subtitle";
+        grid-template-areas: "img title" "img subtitle";
         grid-template-columns: min-content max-content;
     }
     .intro__img {
@@ -357,7 +357,7 @@ header {
     .about-me {
         display: grid;
         grid-template-columns: 1fr 200px;
-        grid-template-areas: "title img""subtitle img""text img";
+        grid-template-areas: "title img" "subtitle img" "text img";
         grid-column-gap: 2em;
     }
     .section__title--about {
@@ -478,7 +478,7 @@ header {
 
 .modal-content {
     position: relative;
-    background-color: #b83d3d;
+    background-color: black;
     margin: auto;
     padding: 0;
     width: 90%;
